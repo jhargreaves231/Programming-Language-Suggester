@@ -1,11 +1,13 @@
 $(document).ready(function() {
-  $("form#celebrity").submit(function(event){
-    const stink = $("select#stink").val();
+  $("form#langSelect").submit(function(event){
+    const questionTwo = $("select#questionTwo").val();
 
-    if (stink === "beans") {
-      $("#Obama").show()
+    if (questionTwo === "choiceOne") {
+      $("#cSharp").show()
+    } else if (questionTwo ==="choiceTwo") {
+      $("#Ruby").show()
     } else {
-      $("#Ryan").show()
+      $("#Javascript").show()
     }
 
     event.preventDefault();

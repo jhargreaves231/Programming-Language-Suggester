@@ -10,30 +10,66 @@
 <body>
   <div class="container">
     <div id="formOne">
-      <h1> WORDS</h1>
-      <form id="celebrity">
-        <label for="stinky">Question one: </label>
-        <select id="stink">
-            <option value="beans">Chose 1 </option>
-            <option value="itsme">Chose 2</option>
-        </select>
-        
+      <h1>Programming Language Suggester</h1>
+      <form id="langSelect">
         <div class="form-group">
-          <label for="questionTwo">Question two</label>
-        <input id="questionTwo" class="form-control" type="text">
+          <label for="questionOne">What's your name?</label>
+        <input id="questionOne" class="form-control" type="text">
+        </div>
+
+        <label for="questionTwo">Question two </label>
+        <select id="questionTwo">
+            <option value="choiceOne">Chose 1 </option>
+            <option value="choiceTwo">Chose 2</option>
+            <option value="choiceThree">Chose 3</option>
+        </select>
+
+        <div class="form-group">
+          <label for="questionThree">Question three</label>
+          <select class="form-control" id="questionThree">
+            <option value="a">one</option>
+            <option value="b">Two</option>
+            <option value="c">Three</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="questionFour">Question four</label>
+        <input id="questionFour" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="questionFive">Question five</label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="flavor" value="chocolate" checked>Chocolate
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="flavor" value="vanilla" checked>Vanilla
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="flavor" value="cookies" checked>Cookies
+          </label>
         </div>
   
         <button type="submit" class="btn">Now tell me </button>
       </form>
       
-      <div id="Obama">
-        <p>oh </p>
-        <img src="img/obama.jpeg">
+      <div id="cSharp">
+        <p>C#</p>
       </div>
       
-      <div id="Ryan">
-        <p>oh </p>
-        <img src="img/ryan.jpeg">
+      <div id="Ruby">
+        <p>Ruby</p>
+      </div>
+
+      <div id="Javascript">
+        <p>JavaScript</p>
       </div>
     </div>
   </div>
