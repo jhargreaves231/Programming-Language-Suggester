@@ -1,7 +1,29 @@
-#cSharp, #Ruby, #Javascript {
-  display: none;
+body {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+.radio {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
 }
 
 .btn {
   display: block;
+  width: 100%;
+  padding: 10px;
 }
+
+#cSharp, #Ruby, #Javascript {
+  display: none;
+  padding: 50px; 
+  font-size: 250%;
+}
+

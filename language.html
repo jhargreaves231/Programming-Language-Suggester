@@ -13,63 +13,64 @@
       <h1>Programming Language Suggester</h1>
       <form id="langSelect">
         <div class="form-group">
-          <label for="questionOne">What's your name?</label>
+          <label for="questionOne">1. What's your name?</label>
         <input id="questionOne" class="form-control" type="text">
         </div>
 
-        <label for="questionTwo">Question two </label>
+        <label for="questionTwo">2. What do you primarily want to do with your code? Chose from the choices provided.  </label>
         <select id="questionTwo">
-            <option value="choiceOne">Chose 1 </option>
-            <option value="choiceTwo">Chose 2</option>
-            <option value="choiceThree">Chose 3</option>
+            <option value="choiceOne">I want to build Window applications and video games.</option>
+            <option value="choiceTwo">I'd like to learn how to quickly develop applications.</option>
+            <option value="choiceThree">I want to focus on my Web building skills.</option>
         </select>
 
         <div class="form-group">
-          <label for="questionThree">Question three</label>
-          <select class="form-control" id="questionThree">
-            <option value="a">one</option>
-            <option value="b">Two</option>
-            <option value="c">Three</option>
+          <label for="questionThree">3. Would you rather work on front-end or back-end developing?</label>
+          <select class="w3-select" name="option" id="questionThree">
+            <option value="" disabled selected>Choose your option</option>
+            <option value="a">Front-end</option>
+            <option value="b">Back-end</option>
+            <option value="c">These words mean nothing to me</option>
           </select>
         </div>
 
         <div class="form-group">
-          <label for="questionFour">Question four</label>
+          <label for="questionFour">4. Describe what you mostly want to build with your coding skills?</label>
         <input id="questionFour" class="form-control" type="text">
         </div>
 
         <div class="form-group">
-          <label for="questionFive">Question five</label>
+          <label for="questionFive">5. What kind of company would you like to work for?</label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="flavor" value="chocolate" checked>Chocolate
+            <input type="radio" name="flavor" value="chocolate" checked> Large Company
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="flavor" value="vanilla" checked>Vanilla
+            <input type="radio" name="flavor" value="vanilla"> Startup
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="flavor" value="cookies" checked>Cookies
+            <input type="radio" name="flavor" value="cookies"> Look, I just want to build that AI Robot that's suppose to take over the world.  
           </label>
         </div>
   
-        <button type="submit" class="btn">Now tell me </button>
+        <button type="submit" class="btn btn-secondary">Now tell me!</button>
       </form>
       
       <div id="cSharp">
-        <p>C#</p>
+        <p>You should learn: <i>C#</i></p>
       </div>
       
       <div id="Ruby">
-        <p>Ruby</p>
+        <p>You should learn: <i>Ruby</i></p>
       </div>
 
       <div id="Javascript">
-        <p>JavaScript</p>
+        <p>You should learn: <i>JavaScript</i></p>
       </div>
     </div>
   </div>
