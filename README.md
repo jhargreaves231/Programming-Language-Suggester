@@ -11,7 +11,7 @@ _This is a form on a webpage that users can fill out to discover which programmi
 ## Setup/Installation Requirements
 
 * _https://jhargreaves231.github.io/Programming-Language-Suggester/_
-* _Double click the language.html document and the form will appear on your web browser. Next, fill out the five questions provided and then click "Now tell me!" button to discover which programming language you should learn!_
+* _Double click the link provided above and the form will appear on your web browser. Next, fill out the five questions provided and then click "Now tell me!" button to discover which programming language you should learn!_
 
 
 ## Support and contact details
